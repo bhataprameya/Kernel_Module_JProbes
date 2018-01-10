@@ -17,5 +17,6 @@ Project Report:
 
 This Project contains a Proc Kernel Module Kernel_code.c and a User module user_code.c
 
--Kernel_code.c: Is a proc interface with JProbes to handle all the page faults that occure on the perticular process whose pid is passed as parameter
+-Kernel_code.c: Is a proc interface with JProbes to handle all the page faults that occure on the perticular process whose pid is passed as parameter.
+
 -User_code.c: Is a User applicatiion which reads the data collect from kernal module and prints it on the terminal.
